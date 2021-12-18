@@ -1,0 +1,51 @@
+header{
+    background-color: rgb(17, 143, 158);
+    height: 120px;
+    width: auto;
+    color:white;
+    border-color: gray;
+    text-align: center;
+    border-radius: 10px;
+    font-size: x-large;
+}
+nav{
+    background-color: #333;
+    overflow: hidden;
+    height: 80px;
+    width: auto;
+}
+nav a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+.rightsidebar{
+    background-color: salmon;
+    height: 2200px;
+    width: 49%;
+    float:right ;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+ 
+ .leftsidebar{
+     background-color:rgb(17, 143, 158);
+     height: 2200px;
+     width: 49%;
+     border-radius: 10px;
+     margin-top: 20px;
+     margin-bottom: 10px;
+ }
+ footer {
+    text-align-center;
+    background-color: rgb(17, 143, 158);
+    height: 150px;
+    width:auto;
+    color:#edf1f2;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

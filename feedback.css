@@ -1,0 +1,100 @@
+.card {
+  width: 80%;
+  background: white;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 14px 43px -25px black;
+  margin: auto;
+  margin-bottom: 40px;
+  transition: opacity 1s;
+  will-change: opacity;
+  position: relative;
+  top: 0;
+}
+div {
+  display: block;
+}
+body {
+  margin: 0;
+  width: 100%;
+  overflow: auto;
+  font-size: 18px;
+  font-family: Merriweather;
+}
+.right {
+  box-shadow: 0 0 70px -40px inset #ffdfdf;
+  min-height: 100vh;
+}
+.left, .right {
+  float: left;
+  width: calc(40% - 1px);
+  padding: 2% 5%;
+  overflow: auto;
+}
+.left {
+  border-right: 2px solid grey;
+}
+.form-inner {
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px -4px;
+}
+.right {
+  box-shadow: 0 0 70px -40px inset salmon;
+  min-height: 125vh;
+  background: salmon;
+}
+.card .head {
+  color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  overflow: clip;
+  background: rgb(17, 143, 158);
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  text-transform: capitalize;
+  word-spacing: 2px;
+}
+.card .content {
+  padding: 20px 40px 25px;
+}
+form {
+  display: grid;
+}
+form {
+  display: block;
+  margin-top: 0em;
+}
+form * {
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+label {
+  cursor: default;
+}
+fieldset {
+  display: block;
+  margin-inline-start: 2px;
+  margin-inline-end: 2px;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 2px;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+select {
+  border-radius: 17px;
+  border: 1px solid #fc6103;
+  background: #f6f6f6;
+  margin-right: 10px;
+}
+select:not(:-internal-list-box) {
+  overflow: visible !important;
+}
